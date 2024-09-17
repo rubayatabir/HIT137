@@ -1,9 +1,9 @@
-from PIL import Image  # Import from Pillow for image manipulation
+from PIL import Image  
 import time
 
 # Step 1: Generate the number 'n'
-current_time = int(time.time())  # Get current time in seconds
-generated_number = (current_time % 100) + 50  # Use the algorithm provided
+current_time = int(time.time())  
+generated_number = (current_time % 100) + 50  
 if generated_number % 2 == 0:
     generated_number += 10
 n = generated_number
